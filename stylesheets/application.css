@@ -1,0 +1,131 @@
+body {
+  background: #DFD9CF url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_light.png);
+  color: #666;
+  font-family: "Open Sans", Arial, Sans-Serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 2%;
+}
+
+#banner {
+  color: #333;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+#banner .sizes {
+  font-size: 2.2em;
+}
+
+#images .product-image {
+  border: 12px solid rgba(50,50,50,0.1);
+  border-radius: 0.2em;
+  max-width: 576px;
+}
+
+#products {
+  margin: 20px 0;
+}
+
+.product {
+  color: #FFF;
+  background: #B0E0E6;
+  border-radius: 0.2em;
+  box-shadow: 0 0 2px rgba(50,50,50,0.1);
+  float: left;
+  margin: 0 10px 0.8em 0;
+  width: 290px;
+}
+
+.product.ten-ft {
+  margin: 0 10px 0.8em 0;
+}
+
+.product.twenty-ft {
+  margin: 0 0 0.8em 10px;
+}
+
+.product .size {
+  float: left;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0 10px;
+  text-shadow: 1px 1px 2px rgba(0,140,140, 0.4);
+}
+
+.product .size sup {
+  font-size: 50%;
+}
+
+.product .price {
+  color: DarkCyan;
+  display: block;
+  float: left;
+  font-size: 1.2em;
+  padding: 20px;
+}
+
+.product .price .value {
+  font-weight: bold;
+}
+
+.product .price .note {
+  display: block;
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+#contact-info {
+  text-align: center;
+}
+
+.tel {
+  color: #9677B3;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.collection {
+  color: #444;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
